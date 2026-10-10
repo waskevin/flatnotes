@@ -1,0 +1,99 @@
+# Multilingual file for TOS 7 Docker application. All 14 languages are REQUIRED.
+
+[en-us]
+name = "Flatnotes"
+auth = "waskevin"
+descript = "Flatnotes is a self-hosted note-taking web app that keeps every note as an ordinary Markdown file in one flat folder on your TNAS. It offers full-text search, tags, wikilinks, raw and WYSIWYG editing modes, and needs no database."
+release_note = "1. Initial release."
+important = "Sign in with user admin. On first start a random password is generated inside the application data directory, in the hidden file data/.admin_password - read it there and change it after the first login. Docker Engine must be installed and enabled from the TOS App Center."
+
+[zh-cn]
+name = "Flatnotes"
+auth = "waskevin"
+descript = "Flatnotes 是自建笔记应用，每条笔记都是 TNAS 上同一个目录里的普通 Markdown 文件。支持全文检索、标签、双向链接，以及原始与所见即所得两种编辑模式，无需数据库。"
+release_note = "1. Initial release."
+important = "使用用户名 admin 登录。首次启动时会在应用数据目录的隐藏文件 data/.admin_password 中生成一个随机密码，请读取该文件并在首次登录后修改密码。需先在应用中心安装并启用 DockerEngine。"
+
+[zh-hk]
+name = "Flatnotes"
+auth = "waskevin"
+descript = "Flatnotes 是自建笔记应用，每条笔记都是 TNAS 上同一个目录里的普通 Markdown 文件。支持全文检索、标签、双向链接，以及原始与所见即所得两种编辑模式，无需数据库。"
+release_note = "1. Initial release."
+important = "使用用户名 admin 登录。首次启动时会在应用数据目录的隐藏文件 data/.admin_password 中生成一个随机密码，请读取该文件并在首次登录后修改密码。需先在应用中心安装并启用 DockerEngine。"
+
+[fr-fr]
+name = "Flatnotes"
+auth = "waskevin"
+descript = "Flatnotes is a self-hosted note-taking web app that keeps every note as an ordinary Markdown file in one flat folder on your TNAS. It offers full-text search, tags, wikilinks, raw and WYSIWYG editing modes, and needs no database."
+release_note = "1. Initial release."
+important = "Sign in with user admin. On first start a random password is generated inside the application data directory, in the hidden file data/.admin_password - read it there and change it after the first login. Docker Engine must be installed and enabled from the TOS App Center."
+
+[de-de]
+name = "Flatnotes"
+auth = "waskevin"
+descript = "Flatnotes is a self-hosted note-taking web app that keeps every note as an ordinary Markdown file in one flat folder on your TNAS. It offers full-text search, tags, wikilinks, raw and WYSIWYG editing modes, and needs no database."
+release_note = "1. Initial release."
+important = "Sign in with user admin. On first start a random password is generated inside the application data directory, in the hidden file data/.admin_password - read it there and change it after the first login. Docker Engine must be installed and enabled from the TOS App Center."
+
+[it-it]
+name = "Flatnotes"
+auth = "waskevin"
+descript = "Flatnotes is a self-hosted note-taking web app that keeps every note as an ordinary Markdown file in one flat folder on your TNAS. It offers full-text search, tags, wikilinks, raw and WYSIWYG editing modes, and needs no database."
+release_note = "1. Initial release."
+important = "Sign in with user admin. On first start a random password is generated inside the application data directory, in the hidden file data/.admin_password - read it there and change it after the first login. Docker Engine must be installed and enabled from the TOS App Center."
+
+[es-es]
+name = "Flatnotes"
+auth = "waskevin"
+descript = "Flatnotes is a self-hosted note-taking web app that keeps every note as an ordinary Markdown file in one flat folder on your TNAS. It offers full-text search, tags, wikilinks, raw and WYSIWYG editing modes, and needs no database."
+release_note = "1. Initial release."
+important = "Sign in with user admin. On first start a random password is generated inside the application data directory, in the hidden file data/.admin_password - read it there and change it after the first login. Docker Engine must be installed and enabled from the TOS App Center."
+
+[hu-hu]
+name = "Flatnotes"
+auth = "waskevin"
+descript = "Flatnotes is a self-hosted note-taking web app that keeps every note as an ordinary Markdown file in one flat folder on your TNAS. It offers full-text search, tags, wikilinks, raw and WYSIWYG editing modes, and needs no database."
+release_note = "1. Initial release."
+important = "Sign in with user admin. On first start a random password is generated inside the application data directory, in the hidden file data/.admin_password - read it there and change it after the first login. Docker Engine must be installed and enabled from the TOS App Center."
+
+[ja-jp]
+name = "Flatnotes"
+auth = "waskevin"
+descript = "Flatnotes is a self-hosted note-taking web app that keeps every note as an ordinary Markdown file in one flat folder on your TNAS. It offers full-text search, tags, wikilinks, raw and WYSIWYG editing modes, and needs no database."
+release_note = "1. Initial release."
+important = "Sign in with user admin. On first start a random password is generated inside the application data directory, in the hidden file data/.admin_password - read it there and change it after the first login. Docker Engine must be installed and enabled from the TOS App Center."
+
+[ko-kr]
+name = "Flatnotes"
+auth = "waskevin"
+descript = "Flatnotes is a self-hosted note-taking web app that keeps every note as an ordinary Markdown file in one flat folder on your TNAS. It offers full-text search, tags, wikilinks, raw and WYSIWYG editing modes, and needs no database."
+release_note = "1. Initial release."
+important = "Sign in with user admin. On first start a random password is generated inside the application data directory, in the hidden file data/.admin_password - read it there and change it after the first login. Docker Engine must be installed and enabled from the TOS App Center."
+
+[pl-pl]
+name = "Flatnotes"
+auth = "waskevin"
+descript = "Flatnotes is a self-hosted note-taking web app that keeps every note as an ordinary Markdown file in one flat folder on your TNAS. It offers full-text search, tags, wikilinks, raw and WYSIWYG editing modes, and needs no database."
+release_note = "1. Initial release."
+important = "Sign in with user admin. On first start a random password is generated inside the application data directory, in the hidden file data/.admin_password - read it there and change it after the first login. Docker Engine must be installed and enabled from the TOS App Center."
+
+[ru-ru]
+name = "Flatnotes"
+auth = "waskevin"
+descript = "Flatnotes is a self-hosted note-taking web app that keeps every note as an ordinary Markdown file in one flat folder on your TNAS. It offers full-text search, tags, wikilinks, raw and WYSIWYG editing modes, and needs no database."
+release_note = "1. Initial release."
+important = "Sign in with user admin. On first start a random password is generated inside the application data directory, in the hidden file data/.admin_password - read it there and change it after the first login. Docker Engine must be installed and enabled from the TOS App Center."
+
+[tr-tr]
+name = "Flatnotes"
+auth = "waskevin"
+descript = "Flatnotes is a self-hosted note-taking web app that keeps every note as an ordinary Markdown file in one flat folder on your TNAS. It offers full-text search, tags, wikilinks, raw and WYSIWYG editing modes, and needs no database."
+release_note = "1. Initial release."
+important = "Sign in with user admin. On first start a random password is generated inside the application data directory, in the hidden file data/.admin_password - read it there and change it after the first login. Docker Engine must be installed and enabled from the TOS App Center."
+
+[pt-pt]
+name = "Flatnotes"
+auth = "waskevin"
+descript = "Flatnotes is a self-hosted note-taking web app that keeps every note as an ordinary Markdown file in one flat folder on your TNAS. It offers full-text search, tags, wikilinks, raw and WYSIWYG editing modes, and needs no database."
+release_note = "1. Initial release."
+important = "Sign in with user admin. On first start a random password is generated inside the application data directory, in the hidden file data/.admin_password - read it there and change it after the first login. Docker Engine must be installed and enabled from the TOS App Center."
