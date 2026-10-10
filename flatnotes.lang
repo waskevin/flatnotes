@@ -2,98 +2,98 @@
 
 [en-us]
 name = "Flatnotes"
-auth = "waskevin"
-descript = "Flatnotes is a self-hosted note-taking web app that keeps every note as an ordinary Markdown file in one flat folder on your TNAS. It offers full-text search, tags, wikilinks, raw and WYSIWYG editing modes, and needs no database."
+auth = "dullage"
+descript = "Flatnotes is a self-hosted note-taking web app that keeps every note as an ordinary Markdown file in a single folder on your TNAS. Notes can be written in a plain Markdown editor or a WYSIWYG editor, and are organised with tags, wikilinks and full-text search that covers both titles and content. Because the notes stay plain files, you can keep syncing, searching or versioning them with any other tool you already use.<br/><br/>Backing up means copying the application data directory - there is no database to dump. The web interface is served on port 10003, supports light and dark themes, and is protected by the administrator account whose password is generated on first start."
 release_note = "1. Initial release."
 important = "Sign in with user admin. On first start a random password is generated inside the application data directory, in the hidden file data/.admin_password - read it there and change it after the first login. Docker Engine must be installed and enabled from the TOS App Center."
 
 [zh-cn]
 name = "Flatnotes"
-auth = "waskevin"
-descript = "Flatnotes 是自建笔记应用，每条笔记都是 TNAS 上同一个目录里的普通 Markdown 文件。支持全文检索、标签、双向链接，以及原始与所见即所得两种编辑模式，无需数据库。"
+auth = "dullage"
+descript = "Flatnotes 是运行在 TNAS 上的自建笔记应用，每条笔记都是同一个目录下的普通 Markdown 文件。可以用原始 Markdown 编辑器或所见即所得编辑器撰写，并通过标签、双向链接和覆盖标题与正文的全文检索来整理笔记；因为笔记就是普通文件，你可以继续用其他工具同步、搜索或做版本管理。<br/><br/>备份只需复制应用数据目录，无需导出数据库。网页界面端口为 10003，支持浅色与深色主题，并使用首次启动时自动生成密码的管理员账号登录。"
 release_note = "1. Initial release."
 important = "使用用户名 admin 登录。首次启动时会在应用数据目录的隐藏文件 data/.admin_password 中生成一个随机密码，请读取该文件并在首次登录后修改密码。需先在应用中心安装并启用 DockerEngine。"
 
 [zh-hk]
 name = "Flatnotes"
-auth = "waskevin"
-descript = "Flatnotes 是自建笔记应用，每条笔记都是 TNAS 上同一个目录里的普通 Markdown 文件。支持全文检索、标签、双向链接，以及原始与所见即所得两种编辑模式，无需数据库。"
+auth = "dullage"
+descript = "Flatnotes 是運行在 TNAS 上的自建筆記應用程式，每條筆記都是同一個目錄下的普通 Markdown 檔案。可以用原始 Markdown 編輯器或所見即所得編輯器撰寫，並透過標籤、雙向連結和涵蓋標題與正文的全文檢索來整理筆記；因為筆記就是普通檔案，你可以繼續用其他工具同步、搜尋或做版本管理。<br/><br/>備份只需複製應用程式資料目錄，無需匯出資料庫。網頁介面連接埠為 10003，支援淺色與深色主題，並使用首次啟動時自動產生密碼的管理員帳號登入。"
 release_note = "1. Initial release."
 important = "使用用户名 admin 登录。首次启动时会在应用数据目录的隐藏文件 data/.admin_password 中生成一个随机密码，请读取该文件并在首次登录后修改密码。需先在应用中心安装并启用 DockerEngine。"
 
 [fr-fr]
 name = "Flatnotes"
-auth = "waskevin"
-descript = "Flatnotes is a self-hosted note-taking web app that keeps every note as an ordinary Markdown file in one flat folder on your TNAS. It offers full-text search, tags, wikilinks, raw and WYSIWYG editing modes, and needs no database."
+auth = "dullage"
+descript = "Flatnotes is a self-hosted note-taking web app that keeps every note as an ordinary Markdown file in a single folder on your TNAS. Notes can be written in a plain Markdown editor or a WYSIWYG editor, and are organised with tags, wikilinks and full-text search that covers both titles and content. Because the notes stay plain files, you can keep syncing, searching or versioning them with any other tool you already use.<br/><br/>Backing up means copying the application data directory - there is no database to dump. The web interface is served on port 10003, supports light and dark themes, and is protected by the administrator account whose password is generated on first start."
 release_note = "1. Initial release."
 important = "Sign in with user admin. On first start a random password is generated inside the application data directory, in the hidden file data/.admin_password - read it there and change it after the first login. Docker Engine must be installed and enabled from the TOS App Center."
 
 [de-de]
 name = "Flatnotes"
-auth = "waskevin"
-descript = "Flatnotes is a self-hosted note-taking web app that keeps every note as an ordinary Markdown file in one flat folder on your TNAS. It offers full-text search, tags, wikilinks, raw and WYSIWYG editing modes, and needs no database."
+auth = "dullage"
+descript = "Flatnotes is a self-hosted note-taking web app that keeps every note as an ordinary Markdown file in a single folder on your TNAS. Notes can be written in a plain Markdown editor or a WYSIWYG editor, and are organised with tags, wikilinks and full-text search that covers both titles and content. Because the notes stay plain files, you can keep syncing, searching or versioning them with any other tool you already use.<br/><br/>Backing up means copying the application data directory - there is no database to dump. The web interface is served on port 10003, supports light and dark themes, and is protected by the administrator account whose password is generated on first start."
 release_note = "1. Initial release."
 important = "Sign in with user admin. On first start a random password is generated inside the application data directory, in the hidden file data/.admin_password - read it there and change it after the first login. Docker Engine must be installed and enabled from the TOS App Center."
 
 [it-it]
 name = "Flatnotes"
-auth = "waskevin"
-descript = "Flatnotes is a self-hosted note-taking web app that keeps every note as an ordinary Markdown file in one flat folder on your TNAS. It offers full-text search, tags, wikilinks, raw and WYSIWYG editing modes, and needs no database."
+auth = "dullage"
+descript = "Flatnotes is a self-hosted note-taking web app that keeps every note as an ordinary Markdown file in a single folder on your TNAS. Notes can be written in a plain Markdown editor or a WYSIWYG editor, and are organised with tags, wikilinks and full-text search that covers both titles and content. Because the notes stay plain files, you can keep syncing, searching or versioning them with any other tool you already use.<br/><br/>Backing up means copying the application data directory - there is no database to dump. The web interface is served on port 10003, supports light and dark themes, and is protected by the administrator account whose password is generated on first start."
 release_note = "1. Initial release."
 important = "Sign in with user admin. On first start a random password is generated inside the application data directory, in the hidden file data/.admin_password - read it there and change it after the first login. Docker Engine must be installed and enabled from the TOS App Center."
 
 [es-es]
 name = "Flatnotes"
-auth = "waskevin"
-descript = "Flatnotes is a self-hosted note-taking web app that keeps every note as an ordinary Markdown file in one flat folder on your TNAS. It offers full-text search, tags, wikilinks, raw and WYSIWYG editing modes, and needs no database."
+auth = "dullage"
+descript = "Flatnotes is a self-hosted note-taking web app that keeps every note as an ordinary Markdown file in a single folder on your TNAS. Notes can be written in a plain Markdown editor or a WYSIWYG editor, and are organised with tags, wikilinks and full-text search that covers both titles and content. Because the notes stay plain files, you can keep syncing, searching or versioning them with any other tool you already use.<br/><br/>Backing up means copying the application data directory - there is no database to dump. The web interface is served on port 10003, supports light and dark themes, and is protected by the administrator account whose password is generated on first start."
 release_note = "1. Initial release."
 important = "Sign in with user admin. On first start a random password is generated inside the application data directory, in the hidden file data/.admin_password - read it there and change it after the first login. Docker Engine must be installed and enabled from the TOS App Center."
 
 [hu-hu]
 name = "Flatnotes"
-auth = "waskevin"
-descript = "Flatnotes is a self-hosted note-taking web app that keeps every note as an ordinary Markdown file in one flat folder on your TNAS. It offers full-text search, tags, wikilinks, raw and WYSIWYG editing modes, and needs no database."
+auth = "dullage"
+descript = "Flatnotes is a self-hosted note-taking web app that keeps every note as an ordinary Markdown file in a single folder on your TNAS. Notes can be written in a plain Markdown editor or a WYSIWYG editor, and are organised with tags, wikilinks and full-text search that covers both titles and content. Because the notes stay plain files, you can keep syncing, searching or versioning them with any other tool you already use.<br/><br/>Backing up means copying the application data directory - there is no database to dump. The web interface is served on port 10003, supports light and dark themes, and is protected by the administrator account whose password is generated on first start."
 release_note = "1. Initial release."
 important = "Sign in with user admin. On first start a random password is generated inside the application data directory, in the hidden file data/.admin_password - read it there and change it after the first login. Docker Engine must be installed and enabled from the TOS App Center."
 
 [ja-jp]
 name = "Flatnotes"
-auth = "waskevin"
-descript = "Flatnotes is a self-hosted note-taking web app that keeps every note as an ordinary Markdown file in one flat folder on your TNAS. It offers full-text search, tags, wikilinks, raw and WYSIWYG editing modes, and needs no database."
+auth = "dullage"
+descript = "Flatnotes is a self-hosted note-taking web app that keeps every note as an ordinary Markdown file in a single folder on your TNAS. Notes can be written in a plain Markdown editor or a WYSIWYG editor, and are organised with tags, wikilinks and full-text search that covers both titles and content. Because the notes stay plain files, you can keep syncing, searching or versioning them with any other tool you already use.<br/><br/>Backing up means copying the application data directory - there is no database to dump. The web interface is served on port 10003, supports light and dark themes, and is protected by the administrator account whose password is generated on first start."
 release_note = "1. Initial release."
 important = "Sign in with user admin. On first start a random password is generated inside the application data directory, in the hidden file data/.admin_password - read it there and change it after the first login. Docker Engine must be installed and enabled from the TOS App Center."
 
 [ko-kr]
 name = "Flatnotes"
-auth = "waskevin"
-descript = "Flatnotes is a self-hosted note-taking web app that keeps every note as an ordinary Markdown file in one flat folder on your TNAS. It offers full-text search, tags, wikilinks, raw and WYSIWYG editing modes, and needs no database."
+auth = "dullage"
+descript = "Flatnotes is a self-hosted note-taking web app that keeps every note as an ordinary Markdown file in a single folder on your TNAS. Notes can be written in a plain Markdown editor or a WYSIWYG editor, and are organised with tags, wikilinks and full-text search that covers both titles and content. Because the notes stay plain files, you can keep syncing, searching or versioning them with any other tool you already use.<br/><br/>Backing up means copying the application data directory - there is no database to dump. The web interface is served on port 10003, supports light and dark themes, and is protected by the administrator account whose password is generated on first start."
 release_note = "1. Initial release."
 important = "Sign in with user admin. On first start a random password is generated inside the application data directory, in the hidden file data/.admin_password - read it there and change it after the first login. Docker Engine must be installed and enabled from the TOS App Center."
 
 [pl-pl]
 name = "Flatnotes"
-auth = "waskevin"
-descript = "Flatnotes is a self-hosted note-taking web app that keeps every note as an ordinary Markdown file in one flat folder on your TNAS. It offers full-text search, tags, wikilinks, raw and WYSIWYG editing modes, and needs no database."
+auth = "dullage"
+descript = "Flatnotes is a self-hosted note-taking web app that keeps every note as an ordinary Markdown file in a single folder on your TNAS. Notes can be written in a plain Markdown editor or a WYSIWYG editor, and are organised with tags, wikilinks and full-text search that covers both titles and content. Because the notes stay plain files, you can keep syncing, searching or versioning them with any other tool you already use.<br/><br/>Backing up means copying the application data directory - there is no database to dump. The web interface is served on port 10003, supports light and dark themes, and is protected by the administrator account whose password is generated on first start."
 release_note = "1. Initial release."
 important = "Sign in with user admin. On first start a random password is generated inside the application data directory, in the hidden file data/.admin_password - read it there and change it after the first login. Docker Engine must be installed and enabled from the TOS App Center."
 
 [ru-ru]
 name = "Flatnotes"
-auth = "waskevin"
-descript = "Flatnotes is a self-hosted note-taking web app that keeps every note as an ordinary Markdown file in one flat folder on your TNAS. It offers full-text search, tags, wikilinks, raw and WYSIWYG editing modes, and needs no database."
+auth = "dullage"
+descript = "Flatnotes is a self-hosted note-taking web app that keeps every note as an ordinary Markdown file in a single folder on your TNAS. Notes can be written in a plain Markdown editor or a WYSIWYG editor, and are organised with tags, wikilinks and full-text search that covers both titles and content. Because the notes stay plain files, you can keep syncing, searching or versioning them with any other tool you already use.<br/><br/>Backing up means copying the application data directory - there is no database to dump. The web interface is served on port 10003, supports light and dark themes, and is protected by the administrator account whose password is generated on first start."
 release_note = "1. Initial release."
 important = "Sign in with user admin. On first start a random password is generated inside the application data directory, in the hidden file data/.admin_password - read it there and change it after the first login. Docker Engine must be installed and enabled from the TOS App Center."
 
 [tr-tr]
 name = "Flatnotes"
-auth = "waskevin"
-descript = "Flatnotes is a self-hosted note-taking web app that keeps every note as an ordinary Markdown file in one flat folder on your TNAS. It offers full-text search, tags, wikilinks, raw and WYSIWYG editing modes, and needs no database."
+auth = "dullage"
+descript = "Flatnotes is a self-hosted note-taking web app that keeps every note as an ordinary Markdown file in a single folder on your TNAS. Notes can be written in a plain Markdown editor or a WYSIWYG editor, and are organised with tags, wikilinks and full-text search that covers both titles and content. Because the notes stay plain files, you can keep syncing, searching or versioning them with any other tool you already use.<br/><br/>Backing up means copying the application data directory - there is no database to dump. The web interface is served on port 10003, supports light and dark themes, and is protected by the administrator account whose password is generated on first start."
 release_note = "1. Initial release."
 important = "Sign in with user admin. On first start a random password is generated inside the application data directory, in the hidden file data/.admin_password - read it there and change it after the first login. Docker Engine must be installed and enabled from the TOS App Center."
 
 [pt-pt]
 name = "Flatnotes"
-auth = "waskevin"
-descript = "Flatnotes is a self-hosted note-taking web app that keeps every note as an ordinary Markdown file in one flat folder on your TNAS. It offers full-text search, tags, wikilinks, raw and WYSIWYG editing modes, and needs no database."
+auth = "dullage"
+descript = "Flatnotes is a self-hosted note-taking web app that keeps every note as an ordinary Markdown file in a single folder on your TNAS. Notes can be written in a plain Markdown editor or a WYSIWYG editor, and are organised with tags, wikilinks and full-text search that covers both titles and content. Because the notes stay plain files, you can keep syncing, searching or versioning them with any other tool you already use.<br/><br/>Backing up means copying the application data directory - there is no database to dump. The web interface is served on port 10003, supports light and dark themes, and is protected by the administrator account whose password is generated on first start."
 release_note = "1. Initial release."
 important = "Sign in with user admin. On first start a random password is generated inside the application data directory, in the hidden file data/.admin_password - read it there and change it after the first login. Docker Engine must be installed and enabled from the TOS App Center."
