@@ -1,0 +1,15 @@
+Flatnotes for TerraMaster TOS 7 - notices
+=========================================
+
+Packaging (config.ini, flatnotes.lang, flatnotes.svg, docker-compose.yml, README.md,
+PRIVACY.md, LICENSE): Copyright (c) 2026 waskevin.
+
+The application itself is NOT part of this repository and is NOT authored by
+the packager.  It is developed by the Flatnotes project and its contributors,
+who hold the copyright in the application code.  All credit for the
+application belongs to them.
+
+Upstream project / source code : https://github.com/dullage/flatnotes
+License                        : MIT (full text in LICENSE)
+Image distribution             : https://hub.docker.com/r/dullage/flatnotes
+Privacy policy                 : PRIVACY.md (this repository)
