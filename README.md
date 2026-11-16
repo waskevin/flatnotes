@@ -35,13 +35,13 @@ version: "3.8"
 
 services:
   flatnotes:
-    image: dullage/flatnotes:v5.5
+    image: dullage/flatnotes:v5.5.5
     restart: unless-stopped
     user: "1000:1000"
     ports:
       - "10003:8080"
     volumes:
-      - ./data:/data
+      - /data:/data
     environment:
       - TZ=Asia/Shanghai
       - FLATNOTES_AUTH_TYPE=password
@@ -118,3 +118,28 @@ the Release, not from the repository root):
 - Upstream project: https://github.com/dullage/flatnotes
 - Docker Hub image: https://hub.docker.com/r/dullage/flatnotes
 - TOS 7 development guide: https://github.com/terramaster-tos/tos-app-pkg-tools
+
+## License / 许可证
+
+The packaging in this repository (`config.ini`, `flatnotes.lang`, `flatnotes.svg`,
+`docker-compose.yml`, `README.md`, `PRIVACY.md`, `NOTICE`) is released under the
+MIT licence; the full text is in `LICENSE`.  The application itself is
+developed by the Flatnotes project and keeps its own copyright — see `NOTICE`.
+
+本仓库中的打包文件以 MIT 许可发布，全文见 `LICENSE`；应用本体版权归
+Flatnotes 项目所有，详见 `NOTICE`。
+
+## Privacy / 隐私
+
+No telemetry, no analytics, no data sent to the packager.  The full policy,
+including what the application itself stores and may send, is in
+[PRIVACY.md](PRIVACY.md).
+
+不含遥测、统计，也不会向打包者发送任何数据。完整说明（含应用自身会存储和发送
+什么）见 [PRIVACY.md](PRIVACY.md)。
+
+## Third-party / 第三方
+
+- Upstream project: https://github.com/dullage/flatnotes
+- Docker image: https://hub.docker.com/r/dullage/flatnotes
+- Licence of the upstream project: MIT
