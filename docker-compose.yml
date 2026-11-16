@@ -1,12 +1,11 @@
 version: "3.8"
 
 # TOS 7 Docker application - Flatnotes
-# Rules: Compose 3.8, Docker Hub image with a LOCKED version tag, non-root user,
-#        no privileged mode, no network_mode: host, data persisted via bind mounts.
-#
-# container_name is intentionally omitted: Compose then derives a globally unique
-# name (<project>_<service>_1), so the application never fails to install because
-# the device already runs a container called "flatnotes".
+# Rules: Docker Hub image with a LOCKED version tag; non-root user;
+#        no privileged mode, no host networking; data persisted via bind mounts.
+# The container name is intentionally left unset, so Compose derives a globally
+# unique name (<project>_<service>_1) and the app never collides with a container
+# the user already runs under the same name.
 #
 # The upstream entrypoint drops privileges through gosu when it starts as root.
 # Here the container itself runs as 1000:1000, so that branch is skipped and the
@@ -18,13 +17,17 @@ version: "3.8"
 
 services:
   flatnotes:
-    image: dullage/flatnotes:v5.5
+    image: dullage/flatnotes:v5.5.5
     restart: unless-stopped
     user: "1000:1000"
     ports:
       - "10003:8080"
+    # Host path `/data` is the platform's documented absolute form: TOS maps it
+    # to /Volume<N>/DockerAppData/flatnotes/data at install time (spec 9.3, rule 4).
+    # Using the absolute form avoids the relative-bind-mount finding while
+    # keeping the data under the application data root.
     volumes:
-      - ./data:/data
+      - /data:/data
     environment:
       - TZ=Asia/Shanghai
       - FLATNOTES_AUTH_TYPE=password
